@@ -1,0 +1,4 @@
+name: Quests
+version: '${version}'
+main: net.victorbetoni.quests.Quests
+api-version: '1.20'
