@@ -52,7 +52,6 @@ public class CreeperHuntQuest extends Quest {
 
             @EventHandler
             public void handle(EntityDeathEvent event) {
-                System.out.println("MATOOO");
                 Player who = event.getEntity().getKiller();
                 System.out.println(1);
                 if(who == null || !who.getUniqueId().equals(parent.holder())) {
